@@ -1,0 +1,12 @@
+{
+  "formatVersion": 1,
+  "id": "teste",
+  "name": "Teste",
+  "icon": "T",
+  "version": "0.1.0",
+  "minecraft": "1.21.1",
+  "loader": {
+    "type": "forge"
+  },
+  "files": []
+}

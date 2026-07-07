@@ -3,10 +3,20 @@
   "id": "teste",
   "name": "Teste",
   "icon": "T",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "minecraft": "1.21.1",
   "loader": {
     "type": "forge"
   },
-  "files": []
+  "files": [
+    {
+      "path": "mods/xaeroworldmap-forge-1.21.1-1.41.2.jar",
+      "sha1": "ffabbe61c4e5386cfef2af31c0c5f1339a312344",
+      "size": 1387423,
+      "downloads": [
+        "https://cdn.modrinth.com/data/NcUtCpym/versions/uiDdCrvp/xaeroworldmap-forge-1.21.1-1.41.2.jar"
+      ],
+      "versionNumber": "forge-1.21.1-1.41.2"
+    }
+  ]
 }

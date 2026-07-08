@@ -3,11 +3,13 @@
   "id": "piedadecraft",
   "name": "Piedadecraft",
   "icon": "pdd",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "minecraft": "1.16.5",
   "loader": {
-    "type": "forge"
+    "type": "forge",
+    "version": "36.2.42"
   },
+  "changelog": "publico",
   "files": [
     {
       "path": "mods/jei-1.16.5-7.8.0.1013.jar",

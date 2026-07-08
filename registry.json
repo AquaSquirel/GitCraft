@@ -9,14 +9,5 @@
       "type": "forge",
       "version": "36.2.42"
     }
-  },
-  {
-    "slug": "teste-exclusao",
-    "name": "Teste Exclusao",
-    "description": "",
-    "mcVersion": "1.20.1",
-    "loader": {
-      "type": "fabric"
-    }
   }
 ]

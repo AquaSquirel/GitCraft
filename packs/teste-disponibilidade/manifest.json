@@ -1,0 +1,11 @@
+{
+  "formatVersion": 1,
+  "id": "teste-disponibilidade",
+  "name": "Teste Disponibilidade",
+  "version": "0.1.0",
+  "minecraft": "1.20.1",
+  "loader": {
+    "type": "fabric"
+  },
+  "files": []
+}

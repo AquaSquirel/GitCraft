@@ -1,0 +1,151 @@
+{
+  "_schemaVersion": 7,
+  "_lastMCVersionId": 763,
+  "generalSettings": {
+    "detectATLauncherInstance": true,
+    "detectCurseManifest": true,
+    "detectMultiMCManifest": true,
+    "detectMCUpdaterInstance": true,
+    "detectTechnicPack": true,
+    "detectModrinthPack": true,
+    "detectBiomeData": true,
+    "detectDimensionData": true,
+    "detectWorldData": true,
+    "clientId": "1435642875038662687",
+    "defaultIcon": "grass",
+    "enableJoinRequests": false,
+    "preferredClientLevel": 3,
+    "resetTimeOnInit": false,
+    "autoRegister": false
+  },
+  "biomeSettings": {
+    "fallbackBiomeIcon": "unknown",
+    "biomeData": {
+      "default": {
+        "textOverride": "Explorando {biome.name}"
+      }
+    }
+  },
+  "dimensionSettings": {
+    "fallbackDimensionIcon": "unknown",
+    "dimensionData": {
+      "default": {
+        "textOverride": "Na dimensão {dimension.name}"
+      }
+    }
+  },
+  "serverSettings": {
+    "fallbackServerIcon": "default",
+    "fallbackServerName": "Servidor de Minecraft",
+    "fallbackServerMotd": "Um Servidor de Minecraft",
+    "serverData": {
+      "default": {
+        "textOverride": "{server.name}"
+      }
+    },
+    "pingRateInterval": 5,
+    "pingRateUnit": "minutes"
+  },
+  "statusMessages": {
+    "mainMenuData": {
+      "textOverride": "No Menu Principal"
+    },
+    "loadingData": {
+      "textOverride": "A carregar..."
+    },
+    "lanData": {
+      "textOverride": "Jogando num Servidor LAN"
+    },
+    "singleplayerData": {
+      "textOverride": "Jogando no Modo Um Jogador"
+    },
+    "realmData": {
+      "textOverride": "Jogando no Realm {server.motd.raw}"
+    }
+  },
+  "advancedSettings": {
+    "enablePerGui": false,
+    "enablePerItem": false,
+    "enablePerEntity": false,
+    "formatWords": true,
+    "debugMode": false,
+    "verboseMode": false,
+    "refreshRate": 2,
+    "allowPlaceholderPreviews": false,
+    "guiSettings": {
+      "fallbackGuiIcon": "unknown",
+      "guiData": {
+        "default": {
+          "textOverride": "No menu {screen.name}"
+        }
+      }
+    },
+    "itemMessages": {
+      "default": "Segurando {item.message.holding}"
+    },
+    "entitySettings": {
+      "fallbackEntityIcon": "unknown",
+      "targetData": {
+        "default": {
+          "textOverride": "Na mira: {entity.target.name}"
+        }
+      },
+      "ridingData": {
+        "default": {
+          "textOverride": "Montando {entity.riding.name}"
+        }
+      }
+    },
+    "allowEndpointIcons": true,
+    "serverIconEndpoint": "https://api.mcsrvstat.us/icon/{server.address.short}",
+    "playerSkinEndpoint": "https://mc-heads.net/avatar/{getOrDefault(player.uuid.short, player.name)}",
+    "allowDuplicatePackets": false,
+    "maxConnectionAttempts": 10,
+    "enableClassGraph": false
+  },
+  "accessibilitySettings": {
+    "languageId": "pt_br",
+    "stripTranslationColors": false,
+    "stripTranslationFormatting": false,
+    "stripExtraGuiElements": false,
+    "configKeyCode": 96
+  },
+  "displaySettings": {
+    "presenceData": {
+      "enabled": true,
+      "useAsMain": false,
+      "isInstance": false,
+      "activityType": 0,
+      "partyPrivacy": 1,
+      "details": "{getFirst(menu.message, biome.message, dimension.message)}",
+      "gameState": "Jogando em {getOrDefault(server.message, 'Singleplayer')}",
+      "largeImageKey": "piedade_craft",
+      "largeImageText": "{getFirst(menu.message, biome.message, dimension.message)}",
+      "smallImageKey": "{getFirst(server.icon, pack.icon)}",
+      "smallImageText": "Jogando em {getOrDefault(server.message, 'Singleplayer')}",
+      "startTimestamp": "{data.general.time}",
+      "endTimestamp": "",
+      "buttons": {
+        "0": {
+          "label": "Acesse o Site",
+          "url": "http://piedadecraft.mateuss.com.br"
+        }
+      }
+    },
+    "dynamicIcons": {
+      "matt-server": "https://api.mcsrvstat.us/icon/matt-server",
+      "minezada.playit.plus": "https://api.mcsrvstat.us/icon/minezada.playit.plus"
+    },
+    "dynamicVariables": {
+      "mods": "{general.mods} Mod(s)",
+      "player_info_coordinate": "Em {player.position.x}, {player.position.z}",
+      "players": "{server.players.current} / {server.players.max} Jogadores",
+      "player_info_in": "({custom.player_info.health})",
+      "player_info_items": "Itens: {item.main_hand.message}",
+      "player_info_out": "Como {player.name}",
+      "player_info_health": "Vida: {player.health.current}/{player.health.max}",
+      "world_info": "No mundo {world.name}",
+      "pack": "{pack.name}"
+    }
+  }
+}

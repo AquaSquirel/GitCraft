@@ -1,0 +1,23 @@
+{
+  "formatVersion": 1,
+  "id": "testegames",
+  "name": "TesteGames",
+  "icon": "T",
+  "version": "0.1.0",
+  "minecraft": "1.16.5",
+  "loader": {
+    "type": "forge",
+    "version": "36.2.42"
+  },
+  "files": [
+    {
+      "path": "mods/jei-1.16.5-7.8.0.1015.jar",
+      "sha1": "35f4f18df392120db85bfc725cc3e194436b67b0",
+      "size": 820640,
+      "downloads": [
+        "https://gitcraft-registry-api.vercel.app/api/curseforge/download?target=https%3A%2F%2Fedge.forgecdn.net%2Ffiles%2F8424%2F379%2Fjei-1.16.5-7.8.0.1015.jar"
+      ],
+      "versionNumber": "jei-1.16.5-7.8.0.1015.jar"
+    }
+  ]
+}
